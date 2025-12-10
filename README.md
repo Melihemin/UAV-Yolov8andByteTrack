@@ -58,7 +58,7 @@ This project is a real-time computer vision system designed for Unmanned Aerial 
 -   `logs/`: Mission logs.
 <img width="910" height="594" alt="image" src="https://github.com/user-attachments/assets/f1080d0a-def2-4738-b486-df4746c402ae" />
 
-##TODO
+## TODO
 
 - Filtering
 - New Model Training
