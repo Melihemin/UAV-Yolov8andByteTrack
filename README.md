@@ -46,17 +46,16 @@ This project is a real-time computer vision system designed for Unmanned Aerial 
 ## Project Structure
 
 -   `main.py`: Entry point, orchestrates the pipeline.
--   `detector.py`: Handles YOLO model inference and ByteTrack integration.
--   `tracker.py`: Logic for selecting the target and calculating redirection vectors.
--   `visualizer.py`: Draws the HUD, bounding boxes, and overlays.
--   `video_loader.py`: Handles video capture (file or webcam).
--   `csv_logger.py`: Async logging of telemetry data.
--   `mission_manager.py`: Manages system states.
--   `preprocessor.py`: Applies image enhancement filters.
--   `config.py`: Central configuration file.
-
-## Logs
-Mission logs are saved in the `logs/` directory with timestamped filenames (e.g., `mission_log_20251208_191227.csv`).
+-   `config/`: Configuration files.
+    -   `settings.py`: Central configuration.
+    -   `bytetrack.yaml`: Tracking parameters.
+-   `src/`: Source code.
+    -   `core/`: Core logic (`detector.py`, `tracker.py`, `mission_manager.py`).
+    -   `utils/`: Utilities (`video_loader.py`, `visualizer.py`, `preprocessor.py`, `logger.py`).
+-   `data/`: Data assets.
+    -   `models/`: YOLO models.
+    -   `videos/`: Input video sources.
+-   `logs/`: Mission logs.
 <img width="910" height="594" alt="image" src="https://github.com/user-attachments/assets/f1080d0a-def2-4738-b486-df4746c402ae" />
 
 ##TODO

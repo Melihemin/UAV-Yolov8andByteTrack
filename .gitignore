@@ -1,4 +1,21 @@
+# General
+.DS_Store
 .vscode/
-__pycache__/
+.idea/
 
-cam_sources/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+
+# Project Specific
+logs/
+data/videos/videos/
+# Uncomment the line below if you want to ignore models (usually good for large files)
+# data/models/
+
+# ByteTrack

@@ -1,14 +1,14 @@
 import cv2
 import time
 import logging
-import config
-from video_loader import VideoLoader
-from preprocessor import apply_filter
-from detector import Detector
-from tracker import Tracker
-from visualizer import Visualizer
-from mission_manager import MissionManager
-from csv_logger import CSVLogger
+from config import settings as config
+from src.utils.video_loader import VideoLoader
+from src.core.detector import Detector
+from src.core.tracker import Tracker
+from src.utils.preprocessor import apply_filter
+from src.utils.visualizer import Visualizer
+from src.core.mission_manager import MissionManager
+from src.utils.logger import CSVLogger
 
 # Configure logging
 logging.basicConfig(level=getattr(logging, config.LOG_LEVEL), format=config.LOG_FORMAT)
