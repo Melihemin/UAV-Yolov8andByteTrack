@@ -1,5 +1,11 @@
 # UAV Tracking & Redirection System
 
+
+
+https://github.com/user-attachments/assets/f4edd601-3adb-46a7-9989-4232a8cc9ab9
+
+
+
 ## Overview
 This project is a real-time computer vision system designed for Unmanned Aerial Vehicles (UAVs). It detects fixed-wing aircraft using a YOLOv8 model, tracks the nearest target using ByteTrack, and provides redirection telemetry to keep the target within a locked zone.
 
